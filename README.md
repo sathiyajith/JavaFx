@@ -1,5 +1,4 @@
-# PASV
-Prometheus Alerts Simulator and Visualizer
+JavaFx
 
 Java fx or Java Swing or Python Tkinter or Java AWT
 Swing because it is cross platform and has amazing UI. We can choose Java fx also.
