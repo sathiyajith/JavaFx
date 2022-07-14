@@ -12,4 +12,6 @@ Javafx is latest and can replace Swing.
  TextField
  Button -> setOnAction()
  HBox
- 
+ CSS stylesheets
+    background image -> repeat, position, size
+    

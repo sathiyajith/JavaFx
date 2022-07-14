@@ -63,7 +63,9 @@ public class Main extends Application {
         buttonBox.setAlignment(Pos.BOTTOM_RIGHT);
         sampleGrid.add(buttonBox,1,4);
 
-        primaryStage.setScene(new Scene(sampleGrid, 500, 500));
+        Scene primaryScene = new Scene(sampleGrid,500,500);
+        primaryScene.getStylesheets().add(Main.class.getResource("loginPage.css").toExternalForm());
+        primaryStage.setScene(primaryScene);
         primaryStage.show();
         primaryStage.setTitle("Grid Form");
     }

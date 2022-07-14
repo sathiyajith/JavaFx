@@ -1,0 +1,13 @@
+.root
+{
+    -fx-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKLwTfQ2JV8_XgK-QME6SSMjwX6v3w4d4VcLXHTbX_7FMIC6eDQk1Rd6cm5SwKw-CF-Ag&usqp=CAU");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover, auto;
+}
+
+.label
+{
+    -fx-font-family: Georgia;
+    -fx-font-size: 20px;
+}
