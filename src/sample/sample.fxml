@@ -7,6 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?language javascript?>
 
+<?import java.net.URL?>
 <GridPane xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
 
     <Text text="Welcome!" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" />
@@ -18,11 +19,6 @@
     <Button text="Sign In" onAction="handleValidation(event)"/>
     </HBox>
     <Text fx:id="validationMessage" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-    <fx:script>
-        function handleValidation(event)
-        {
-            validationMessage.setText("Signed In successully!");
-        }
-    </fx:script>
-
+    <fx:script source="sample.js" />
+    <stylesheets> <URL value="@loginPage.css"/> </stylesheets>
 </GridPane>

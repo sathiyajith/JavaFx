@@ -18,5 +18,7 @@ Javafx is latest and can replace Swing.
     background image -> repeat, position, size
     effects - gaussian, linear-gradient
  FXML annotation and controller
- Using Javascript fx:script
+ Using Inline Javascript fx:script
+ Using external JS and Stylesheets
+ 
  
