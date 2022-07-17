@@ -21,4 +21,6 @@
     <Text fx:id="validationMessage" GridPane.columnIndex="1" GridPane.rowIndex="6" />
     <fx:script source="sample.js" />
     <stylesheets> <URL value="@loginPage.css"/> </stylesheets>
+
+
 </GridPane>
